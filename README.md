@@ -1,5 +1,5 @@
 # ReduxBlogApp
-Blog App with react, redux and react router, middleware, promise and axios.
+Blog App using react, redux and react router, redux-form (form validation), middleware, promise and axios.
 
 ```
 	> git clone https://github.com/BenGedi/ReduxBlogApp
