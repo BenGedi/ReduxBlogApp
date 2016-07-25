@@ -12,8 +12,10 @@ class PostsNew extends Component {
     };
 
     onSubmit(props) {
+        debugger;
         this.props.createPost(props)
             .then(() => {
+                debugger;
                 // blog post has been created, navigate the user to the index
                 // We navigate by calling this.context.router.push with the
                 // new path to navigate to.
