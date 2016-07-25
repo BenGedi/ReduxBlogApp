@@ -8,6 +8,7 @@ class PostsIndex extends Component {
     // componentWillMount called before the component is about to re-render for the first time
     componentWillMount() {
         // fetchPosts() is binded to props from bindActionCreators
+        // get all posts from server
         this.props.fetchPosts();
     }
 
